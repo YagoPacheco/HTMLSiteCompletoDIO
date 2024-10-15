@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorriso Radiante - Contatos</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+        body {
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .form-container {
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            max-width: 500px;
+            margin: auto;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        label {
+            display: block;
+            margin: 10px 0 5px;
+            color: #555;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #5cb85c;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-right: 10px;
+        }
+
+        button[type="reset"] {
+            background-color: #d9534f;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <a href="index.html">
+                <img alt="Logo: Artistic tooth #Designed by Freepik" width="100%" src="logo.jpg">
+            </a>
+            <br>
+            <ul>
+                    <li><a href="index.html">Página inicial</a></li>
+                    <li><a href="schedule.html">Horário de Funcionamento</a></li>
+                    <li><a href="contact.html">Contato</a></li>
+                    <li><a href="about.html">Sobre</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <!-- Aqui vai o seu header -->
+                 <img alt="Banner: Telefone #Designed by Freepik" src="contact.jpg" width="20%" height="100%" align="right">
+            </div>
+    
+            <div class="content">                
+                <!-- Aqui vai o seu conteúdo -->
+                 <h1>Contatos</h1>
+                 <p><strong>Telefone para contato:</strong> (11)5645-773X</p>
+                 <p><strong>Whatsapp:</strong> (11)5645-773X</p>
+                 <p><strong>Endereço:</strong> Av. 7 de Setembro, 371 - Centro, Araraquara - SP, 14800-390</p>
+                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14818.256547831324!2d-48.17566777055138!3d-21.79712380951464!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b8f352fa75fecf%3A0xf04febe826f6d95d!2sDIO!5e0!3m2!1spt-BR!2sbr!4v1729025964383!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>
+                 
+                 <div class="form-container">
+                    <h2>Contato</h2>
+                    <form name="contato" onsubmit="alert('Formulário enviado'); " autocomplete="off" method="post">
+                        <label>Nome:</label>
+                        <input type="text" id="name" name="name" required />
+                
+                        <label>E-mail:</label>
+                        <input type="email" id="email" name="email" required />
+                
+                        <label>Assunto:</label>
+                        <input type="text" id="assunto" name="assunto" required />
+                
+                        <label>Mensagem:</label>
+                        <textarea id="message" rows="4" cols="50" name="message" required></textarea>
+                
+                        <button type="submit">Enviar</button>
+                        <button type="reset">Limpar</button>
+                    </form>            
+            </div>
+    
+            <div class="footer" style="text-align:center; font-size: small;">
+                <!-- Aqui vai o seu rodapé -->
+                <table cellspacing="25" align="center">
+                    <tr>
+                        <td>Telefone para agendamentos e informações: (11) 5645-773X</td>
+                        <td>WhatsApp para mensagens rápidas e agendamentos: (11) 95462-575X</td>
+                    </tr>
+                    <tr>
+                        <td>Contato geral: contato@sorrisoradiante.com.br</td>
+                        <td>Atendimento ao paciente: atendimento@sorrisoradiante.com.br</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
